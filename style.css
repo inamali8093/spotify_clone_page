@@ -67,6 +67,7 @@ nav ul li{
 }
 .songItem{
    height: 50px;
+   width: 98%;
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -80,6 +81,11 @@ nav ul li{
    height: 50px;
    margin: 0 12px;
    border-radius: 34px;
+}
+.scroll{
+    height: 62vh;
+    width: 485px;
+    overflow-y: auto;
 }
 .songlistPlay{
    display: flex;
@@ -95,7 +101,7 @@ nav ul li{
     position: absolute;
     left: 25%;
 }
-#gif{
+.gif{
     opacity: 0;
     transition: opacity 0.4s ease-in-out;
 }
